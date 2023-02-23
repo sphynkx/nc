@@ -64,6 +64,6 @@ setupviewerbindings(void)
 {
 	bindings = viewerbindings;
 	actionbarclear(abar);
-	actionbarset(abar, 3, "Quit", cmdquit);
+	actionbarset(abar, 3, "Quit", cmdquit);## new
 	actionbarset(abar, 10, "Quit", cmdquit);
 }
