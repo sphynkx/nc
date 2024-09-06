@@ -47,6 +47,7 @@ cmdpagedown(void)
 }
 
 Binding	viewerbindings[] = {
+	{ KF|3,	cmdquit },
 	{ KF|10,	cmdquit },
 	{ Kup,		cmdup },
 	{ Kdown,	cmddown },
@@ -54,6 +55,7 @@ Binding	viewerbindings[] = {
 	{ Kend,		cmdend },
 	{ Kpgup,	cmdpageup },
 	{ Kpgdown,	cmdpagedown },
+	{ Kesc,	cmdquit },
 	nil
 };
 
@@ -62,5 +64,6 @@ setupviewerbindings(void)
 {
 	bindings = viewerbindings;
 	actionbarclear(abar);
+	actionbarset(abar, 3, "Quit", cmdquit);
 	actionbarset(abar, 10, "Quit", cmdquit);
 }

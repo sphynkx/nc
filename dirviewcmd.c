@@ -493,6 +493,8 @@ Binding	dirviewbindings[] = {
 	{ Kend,		cmdend },
 	{ Kpgup,	cmdpageup },
 	{ Kpgdown,	cmdpagedown },
+	{ Kleft,	cmdpageup },
+	{ Kright,	cmdpagedown },
 	nil
 };
 

@@ -11,6 +11,8 @@ char help[] =
 	"Key bindings:\n"
 	"  Up       - move selection to previous item\n"
 	"  Down     - move selection to next item\n"
+	"  Left     - move selection up one page\n"
+	"  Right    - move selection down one page\n"
 	"  PageUp   - move selection up one page\n"
 	"  PageDown - move selection down one page\n"
 	"  Home     - move selection to the first element in the directory\n"
